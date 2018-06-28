@@ -40,19 +40,7 @@ body{
 
 
 
-.bleu p{
-    
-    
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    color: white;
-    font-size: 2rem;
-    z-index:2;
-    margin: 0;
-    padding: 0;
-    
-}
+
 
 
 .J1{
@@ -192,4 +180,17 @@ background: #ffec18;
 }
 
 
-
+p{
+    position: absolute;
+    background: #ffec18;
+    color: black;
+    width: 0px;
+    left: 43%;
+    top: 30%;
+    height: 0px;
+    z-index: 9;
+    font-size: 0;
+    padding-left: 15px;
+    
+    
+}
