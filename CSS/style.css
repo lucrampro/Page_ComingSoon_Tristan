@@ -183,5 +183,13 @@ background: #ffec18;
     
 }
 
+.perso{
+    
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    width: 0px;
+}
+
 
 

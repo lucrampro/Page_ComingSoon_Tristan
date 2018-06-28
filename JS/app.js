@@ -18,7 +18,17 @@ TweenMax.to(".N5", 0.5, { height:"0%", onComplete: function(){
             TweenMax.to(".RJ1",0.5, { width:"50px",height:"50px" });
             TweenMax.to(".RJ2",0.5, { width:"50px",height:"50px", delay: 0.5 });
             TweenMax.to(".RJ3",0.5, { width:"50px",height:"50px", delay: 1 });
-            TweenMax.to(".RJ4",0.5, { width:"50px",height:"50px", delay: 1.5 });
+            TweenMax.to(".RJ4",0.5, { width:"50px",height:"50px", delay: 1.5, onComplete: function(){
+                
+                
+                TweenMax.to(".perso", 0.5, { width:"400px",ease: Bounce.easeOut, onComplete: function(){
+                    
+                    
+                    TweenMax.to(".bleu", 0.5, { width:"100%", zIndex: 9999 });
+                    
+                }});
+                
+            } });
             
         }});
         
