@@ -8,25 +8,36 @@ body{
     
     height: 100%;
     width: 100%;
+    font-family: 'Lobster', cursive;
 }
 
 .bleu{
     
-    position: relative;
+
     height: 100%;
     width: 50%;
     background: #00439f;
+
     
 }
+
 
 .bleu h1 {
     
     position: absolute;
     left: 20%;
-    top: 25%;
+    top: 0%;
     color: white;
-    font-size: 5rem;
+    font-size: 100%;
+    z-index:2;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    
 }
+
+
+
 
 .bleu p{
     
@@ -36,5 +47,37 @@ body{
     top: 50%;
     color: white;
     font-size: 2rem;
-    visibility: hidden;
+    z-index:2;
+    margin: 0;
+    padding: 0;
+    
 }
+
+
+.J1{
+    
+    
+    position: absolute;
+    left: 20%;
+    top: 30%;
+   background: #ffec18;
+    height: 5%;
+    width: 0%;
+    
+}
+
+
+
+.J2{
+    
+    
+    position: absolute;
+    left: 20%;
+    top: 40%;
+   background: #ffec18;
+    height: 5%;
+    width: 0%;
+    
+}
+
+
