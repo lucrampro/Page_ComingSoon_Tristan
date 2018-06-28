@@ -36,4 +36,5 @@ body{
     top: 50%;
     color: white;
     font-size: 2rem;
+    visibility: hidden;
 }
