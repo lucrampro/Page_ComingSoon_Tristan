@@ -35,7 +35,11 @@ TweenMax.to(".N5", 0.5, { height:"0%", onComplete: function(){
                 
                 
                 TweenMax.to(".perso", 1, { right: "35%" });
-                TweenMax.to(".bleu", 0.5, {width:"50%",ease: Bounce.easeOut, delay: 1});
+                TweenMax.to(".bleu",  1, {width:"50%",ease: Back.easeOut.config(1.7), delay:0.2, onComplete: function(){
+                    
+                    TweenMax.to(".perso", 1, { width:"500px", delay:0.2 });
+                    
+                }});
                 
                 
             } });
